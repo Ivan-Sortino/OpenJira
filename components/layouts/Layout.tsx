@@ -16,7 +16,7 @@ export const Layout: FC<Props>= ({title='OpenJira', children}) => {
     <Box sx={{ flexFlow:'1'}}>
         <Head>
             <title>{title}</title>
-
+        </Head>
             <NavBar></NavBar>
             
             <SideBar></SideBar>
@@ -25,7 +25,7 @@ export const Layout: FC<Props>= ({title='OpenJira', children}) => {
                 {children}
             </Box>
 
-        </Head>
+        
         
     </Box>
   )
